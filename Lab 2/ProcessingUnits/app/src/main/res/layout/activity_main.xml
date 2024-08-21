@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg1"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/HeadingTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="47dp"
+        android:layout_gravity="center"
+        android:layout_margin="16dp"
+        android:backgroundTint="@color/white"
+        android:text="@string/headingText"
+        android:textSize="24sp" />
+
+    <Spinner
+        android:id="@+id/ProcessingUnitSpinner"
+        android:layout_width="304dp"
+        android:layout_height="53dp"
+        android:layout_gravity="center"
+        android:layout_margin="16dp"
+        android:layout_marginTop="40dp"
+        android:entries="@array/ProcessorStringArray" />
+
+    <Button
+        android:id="@+id/SeekButton"
+        android:layout_width="241dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="16dp"
+        android:backgroundTint="@android:color/holo_blue_dark"
+        android:onClick="onClickFindProcessingUnit"
+        android:text="@string/Button" />
+
+    <TextView
+        android:id="@+id/ComponentTextView"
+        android:layout_width="303dp"
+        android:layout_height="96dp"
+        android:layout_gravity="center"
+        android:layout_margin="16dp"
+        android:text="@string/defaultText"
+        android:textSize="20sp" />
+</LinearLayout>
