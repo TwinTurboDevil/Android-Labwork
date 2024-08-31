@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">ProcessingUnits</string>
+    <string name="Button">Find Processing Units</string>
+    <string name="defaultText">No Option Selected</string>
+    <string name="headingText">Different Processing Units</string>
+    <string-array name="ProcessorStringArray">
+        <item>Central Processing Unit</item>
+        <item>Graphic Processing Unit</item>
+        <item>Quantum Processing Unit</item>
+    </string-array>
+</resources>
